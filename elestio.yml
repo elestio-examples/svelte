@@ -4,7 +4,7 @@ config:
   framework: "Svelte"
   buildCommand: "npm run build"
   buildDir: "dist"
-  runCommand: "npm run start"
+  runCommand: "npm run dev"
   installCommand: 'npm install'
 ports:
   - protocol: "HTTPS"
